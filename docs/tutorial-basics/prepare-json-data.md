@@ -12,7 +12,7 @@ string will be sent to the API and processed to merge into the Excel template.
 The JSON keys are of two types:
 
 * The ones beginning with **underscore _** are reserved names used by the API
-* The others are used to define data to replace in Excel template (key **example** will replace **\<example\>** in Excel
+* The others are used to define data to replace in Excel template (key **example** will replace **<example\>** in Excel
   template
 
 Here is an example of JSON object with the description of each key :
