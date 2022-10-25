@@ -4,10 +4,10 @@ sidebar_position: 1
 
 # Overview
 
-Generating Excel files with formatting is always a pain. This API allows any developper to generate Excel files with
+Generating Excel files with formatting is always a pain. This API allows any developer to generate Excel files with
 formatting in a few lines of code.
 
-With this API you can have : colors, conditional formating (enabling having icons in cells), merged cells etc.
+With this API you can have : colors, conditional formatting (enabling having icons in cells), merged cells etc.
 
 Here is a **real-life example** of what can be done with this API
 
