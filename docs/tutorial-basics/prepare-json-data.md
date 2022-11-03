@@ -1,5 +1,5 @@
 ---
-sidebar_position: 2
+sidebar_position: 3
 ---
 
 # Prepare JSON data
@@ -22,7 +22,9 @@ let jsonObject = {
     "_output_name": `Export-contacts.xlsx`,
     // this is unused yet
     "_template_file": "contacts_template.xlsx",
-    // name of the XLS template file to use
+    // name of the XLS template file to use, either : 
+    // - the URL of the file hosted in a public URL : https://bucket.s3.amazonaws.com/file.xlsx
+    // - the name of the file that you uploaded in the API dashboard : file.xlsx
 
     // define an array of worksheets to work on
     "_sheets": [

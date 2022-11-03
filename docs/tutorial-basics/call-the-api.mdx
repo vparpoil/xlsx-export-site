@@ -1,5 +1,5 @@
 ---
-sidebar_position: 3
+sidebar_position: 4
 ---
 
 # Call the API
@@ -7,34 +7,45 @@ sidebar_position: 3
 
 ## Obtain an API token to be used on your server
 
-This token is a secret, do not disclose it on your app frontend.
+Create an account on the [API dashboard](https://api.jsontoxlsx.com/) and get your first API key.
+
+This API key is a secret, do not disclose it on your app frontend.
+
+The usage is not limited yet, but it will be in the future, with a SaaS subscription model (pricing to be defined, related to usage of the API).
 
 
 ## Call the API and retreive a download link
 
-:::danger Warning
-
-TODO
-
-:::
+From your server, you can now call the API to blend your JSON data into your XLSX template.
 
 ```js
-/*
-not working yet , todo
-
 import fetch from 'node-fetch'
-let jsonString = JSON.stringify(jsonObject)
+
+// see related documentation on how to prepare jsonObject variable
+
+const jsonString = JSON.stringify(jsonObject)
 // prepare the JSON object
-fetch("https://api.exceljs.io/generate", {
+const response = await fetch("https://api.jsontoxlsx.com/generate", {
     method: "POST",
     headers: {
         "Content-Type": "application/json",
-        "X-API-KEY": "<your-api-key>"
+        "x-api-key": "<your-api-key>"
     },
     body: jsonString
-})*/
+});
+const data = await response.json();
+console.log(data)
+/**
+data = {
+  status: 'ok',
+  downloadUrl: 'https://api.jsontoxlsx.com/download/<random_id>'
+}
+*/
+
 ```
+
+The download URL `data.downloadUrl` is valid for a **single download**. Once the file is downloaded, it is deleted from the server. We don't keep history of the generated files.
 
 ## Final file
 
-The generated file is the following: [Export-contacts.xlsx](/xlsx/Export-contacts.xlsx)
+The generated file looks like the following: [Export-contacts.xlsx](/xlsx/Export-contacts.xlsx)
