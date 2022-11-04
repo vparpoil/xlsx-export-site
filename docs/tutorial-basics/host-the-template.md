@@ -11,12 +11,6 @@ Once your template file ready, you have two options :
 
 ## Self-host the template file
 
-:::danger Warning
-
-This is not working yet. We are working on it.
-
-:::
-
 To host the template file, you can upload it to any public destination that can be accessed by a public URL. You can use
 any of the following : AWS S3 bucket, Cloud storage, Github, your own server, etc.
 
@@ -24,9 +18,9 @@ any of the following : AWS S3 bucket, Cloud storage, Github, your own server, et
 
 ## Use the API dashboard to upload the template file
 
-:::danger Warning
+:::caution
 
-This is not working yet. We are working on it.
+This is not working yet. We are working on it. Please use the self-hosting option for now.
 
 :::
 
