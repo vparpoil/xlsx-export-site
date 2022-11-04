@@ -11,8 +11,14 @@ Once your template file ready, you have two options :
 
 ## Self-host the template file
 
-To host the template file, you can upload it to any public destination that can be accessed by a public URL. AWS S3
-bucket, Cloud storage, Github, your own server, etc.
+:::danger Warning
+
+This is not working yet. We are working on it.
+
+:::
+
+To host the template file, you can upload it to any public destination that can be accessed by a public URL. You can use
+any of the following : AWS S3 bucket, Cloud storage, Github, your own server, etc.
 
 **Using this option, your template is publicly available on the internet.**
 

@@ -30,8 +30,8 @@ export default function Home() {
     const {siteConfig} = useDocusaurusContext();
     return (
         <Layout
-            title={`Hello from ${siteConfig.title}`}
-            description="Description will go into a meta tag in <head />">
+            title={`JSON to XLSX`}
+            description="By Developpers for Application Builders. Generate real Excel files with templating for your apps">
             <HomepageHeader/>
             <main>
                 <HomepageFeatures/>

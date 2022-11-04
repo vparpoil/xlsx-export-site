@@ -9,8 +9,8 @@ const FeatureList = [
         Svg: require('@site/static/img/undraw_data.svg').default,
         description: (
             <>
-                This API has been designed by developpers to developpers to make it seamless to generate real Excel
-                files.
+                This API has been designed to make it seamless to generate real Excel
+                files for any user.
             </>
         ),
     },

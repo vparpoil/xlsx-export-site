@@ -10,7 +10,7 @@ const projectName = "xlsx-export-site";
 /** @type {import('@docusaurus/types').Config} */
 const config = {
     title: 'JSON to XLSX',
-    tagline: 'By Developpers for Developpers. Generate real Excel files with templating',
+    tagline: 'By Developpers for Application Builders. Generate real Excel files with templating for your apps',
     url: `https://www.jsontoxlsx.com`,
     baseUrl: `/`,
     onBrokenLinks: 'throw',
@@ -73,11 +73,11 @@ const config = {
                         label: 'Documentation',
                     },
                     //{to: '/blog', label: 'Blog', position: 'left'},
-                    /*{
-                      href: 'https://github.com/facebook/docusaurus',
-                      label: 'GitHub',
-                      position: 'right',
-                    },*/
+                    {
+                        href: 'https://api.jsontoxlsx.com',
+                        label: 'Sign in',
+                        position: 'right',
+                    },
                 ],
             },
             footer: {
@@ -129,6 +129,9 @@ const config = {
                 theme: lightCodeTheme,
                 darkTheme: darkCodeTheme,
             },
+            colorMode: {
+                disableSwitch: true
+            }
         }),
 };
 
