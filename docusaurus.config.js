@@ -11,8 +11,8 @@ const projectName = "xlsx-export-site";
 const config = {
     title: 'JSON to XLSX',
     tagline: 'By Developpers for Developpers. Generate real Excel files with templating',
-    url: `https://${organizationName}.github.io`,
-    baseUrl: `/${projectName}/`,
+    url: `https://www.jsontoxlsx.com`,
+    baseUrl: `/`,
     onBrokenLinks: 'throw',
     onBrokenMarkdownLinks: 'warn',
     favicon: 'img/favicon.ico',
