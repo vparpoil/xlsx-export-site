@@ -10,7 +10,10 @@ const projectName = "xlsx-export-site";
 /** @type {import('@docusaurus/types').Config} */
 const config = {
     title: 'JSON to XLSX',
-    tagline: 'By Developpers for Application Builders. Generate real Excel files with templating for your apps',
+    tagline: 'By Developpers for Application Builders',
+    customFields:{
+        subTagline: 'Generate real Excel files with templating for your apps',
+    },
     url: `https://www.jsontoxlsx.com`,
     baseUrl: `/`,
     onBrokenLinks: 'throw',
