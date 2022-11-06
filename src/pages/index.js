@@ -35,7 +35,7 @@ export default function Home() {
     return (
         <Layout
             title={`JSON to XLSX`}
-            description="By Developpers for Application Builders. Generate real Excel files with templating for your apps">
+            description="By Developers for Application Builders. Generate real Excel files with templating for your apps">
             <HomepageHeader/>
             <main>
                 <HomepageFeatures/>
